@@ -29,4 +29,9 @@ while True:
 
         elif choice == '4':
             if num2 != 0:
-            …
+             print(num1, "/", num2, "=", num1 / num2)
+            else:
+                print("Cannot divide by zero")
+
+    else:
+        print("Invalid input. Please enter a valid choice.")
